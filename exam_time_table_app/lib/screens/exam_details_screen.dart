@@ -149,10 +149,39 @@ class _ExamDetailScreenState extends State<ExamDetailScreen> {
                 onSaved: (value) => _currentExam =
                     _currentExam.copyWith(description: value ?? ''),
               ),
+<<<<<<< Updated upstream
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {}, //_saveExam,
                 child: const Text('Save Exam'),
+=======
+
+              const SizedBox(height: 30),
+
+              // Save Button
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {}, // _saveExam,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: _primaryColor,
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    elevation: 3,
+                    shadowColor: _primaryColor.withOpacity(0.3),
+                  ),
+                  child: const Text(
+                    'SAVE EXAM',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+>>>>>>> Stashed changes
               ),
             ],
           ),
