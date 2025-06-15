@@ -7,9 +7,6 @@ A Flutter application for managing exam schedules with notification reminders.
 - 📅 View all upcoming exams in a clean list
 - 🔄 Pull-to-refresh functionality
 - 🎨 Modern, eye-catching UI with consistent theme
-- ➕ Add new exams with details
-- ✏️ Edit existing exam details
-- 🔔 Set notification reminders
 - 🗑️ Delete exams
 
 ## Getting Started
