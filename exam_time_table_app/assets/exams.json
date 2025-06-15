@@ -1,0 +1,26 @@
+[
+  {
+    "cid": "ICT4133",
+    "courseName": "AI",
+    "date": "2023-06-15",
+    "time": "09:00",
+    "hall": "Room 101",
+    "description": "Final exam covering all topics"
+  },
+  {
+    "cid": "TCS4121",
+    "courseName": "Innovation",
+    "date": "2023-06-16",
+    "time": "13:30",
+    "hall": "Room 202",
+    "description": "Chapters 1-10"
+  },
+  {
+    "cid": "ICT4163",
+    "courseName": "Image Processing",
+    "date": "2023-06-17",
+    "time": "10:15",
+    "hall": "Lab 3",
+    "description": "Practical exam"
+  }
+]
